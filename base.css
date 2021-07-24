@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+button[type="button"]{
+    border: 1px solid #0086F9;
+    border-radius: 4px;
+
+    background: linear-gradient(0deg,#888888 , #FFFFFF);
+    color: #000000;
+}
+
+body{
+    /* 背景画像を指定するプロパティ */
+    background-image: url(/yoshiko.jpg);
+
+    /* 背景画像の繰り返し設定 */
+    background-repeat: repeat;
+
+    /* 背景画像のサイズ設定 */
+    background-size: 20%;
+}

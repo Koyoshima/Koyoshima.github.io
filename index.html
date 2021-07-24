@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/base.css">
+    <title>料理のレシピ</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>メニュー</h1>
+        </header>
+
+        <div>
+            <h2>メニューを押すとレシピが出ます</h2>
+            
+            <button type="button" onclick="janken(0)">チャーハン</button>
+            <button type="button" onclick="janken(1)">からあげ</button>
+            <button type="button" onclick="janken(2)">ハンバーグ</button>
+            <button type="button" onclick="janken(3)">焼きそば</button>
+            <button type="button" onclick="janken(4)">肉じゃが</button>
+
+            <div id="janken-result">
+                <p id="janken-result-p"></p>
+            </div>            
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="/sample.js"></script>
+    </body>
+</html>
